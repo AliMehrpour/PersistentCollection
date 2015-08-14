@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:paddingTop="4dp"
+              android:paddingBottom="4dp"
+              tools:ignore="ButtonStyle">
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/edit_value"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:inputType="textNoSuggestions"
+                android:hint="@string/hint_enter_item" />
+
+            <EditText
+                android:id="@+id/edit_position"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:inputType="number"
+                android:hint="@string/hint_position" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_enqueue"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_enqueue" />
+
+            <Button
+                android:id="@+id/button_dequeue"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_dequeue" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_peek"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_peek" />
+
+            <Button
+                android:id="@+id/button_peek_at"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_peek_at" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_insert_at"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_insert_at" />
+
+            <Button
+                android:id="@+id/button_remove_from"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_remove_from" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_get_size"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_get_size" />
+
+            <Button
+                android:id="@+id/button_is_empty"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/button_is_empty" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/text_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3E3E3"
+        android:textSize="15sp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

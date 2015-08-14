@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Persistent Queue Demo</string>
+
+    <string name="button_enqueue">Enqueue</string>
+    <string name="button_dequeue">Dequeue</string>
+    <string name="button_peek">Peek</string>
+    <string name="button_peek_at">Peek At</string>
+    <string name="button_insert_at">Insert At</string>
+    <string name="button_remove_from">Remove From</string>
+    <string name="button_get_size">Get Size</string>
+    <string name="button_is_empty">Is Empty</string>
+
+    <string name="hint_enter_item">Enter item</string>
+    <string name="hint_position">Position</string>
+
+</resources>
